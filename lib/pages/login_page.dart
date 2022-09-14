@@ -9,11 +9,11 @@ class LoginPage extends StatefulWidget {
 }
 
 class _LoginPageState extends State<LoginPage> {
-  String name = "";
+  //String name = "";
   bool changeButton = false;
   final _formKey = GlobalKey<FormState>();
 
-  var form;
+  //var form;
 
   moveToHome(BuildContext context) async {
     if (_formKey.currentState!.validate()) {
@@ -45,9 +45,10 @@ class _LoginPageState extends State<LoginPage> {
                 const SizedBox(
                   height: 20.0,
                 ),
-                Text(
-                  "Welcome $name",
-                  style: const TextStyle(
+                const Text(
+                  //"Welcome $name",
+                  "Welcome",
+                  style: TextStyle(
                     fontSize: 30,
                     fontWeight: FontWeight.bold,
                   ),
@@ -72,10 +73,10 @@ class _LoginPageState extends State<LoginPage> {
                           }
                           return null;
                         },
-                        onChanged: (value) {
-                          name = value;
-                          setState(() {});
-                        },
+                        // onChanged: (value) {
+                        //   name = value;
+                        //   setState(() {});
+                        // },
                       ),
                       TextFormField(
                         obscureText: true,
