@@ -1,0 +1,29 @@
+{
+    "products": [
+        {
+            "id": "Chem001",
+            "name": "iphone 13 Pro",
+            "desc": "Apple iphone 13th generation",
+            "price": 1299,
+            "color": "#33505a",
+            "image": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/61jLiCovxVL._SX679_.jpg"
+        },
+        {
+            "id": "Chem002",
+            "name": "Pixel 6",
+            "desc": "Google Pixel phone 6th generation",
+            "price": 799,
+            "color": "#00ac51",
+            "image": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/6191aDbiwjL._SX522_.jpg"
+        },
+        {
+            "id": "Chem003",
+            "name": "M2 Macbook Air",
+            "desc": "Macbook with new chipset",
+            "price": 1499,
+            "color": "#e0bfae",
+            "image": "https://www.reliancedigital.in/medias/Apple-MLY23HN-A-Laptop-492850655-i-2-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wxNDAzMTV8aW1hZ2UvanBlZ3xpbWFnZXMvaGRlL2g5MS85ODUwOTU0MDg4NDc4LmpwZ3xlMzJmZjdkN2E0Mzc3NzU0MjNkZTE4NzAyMWJlYjgyZmIwMzg3NDFlYzRiN2EzMjljNTk5MTg4NTk3ZTAzOTIx"
+        }
+        
+    ]
+}

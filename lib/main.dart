@@ -2,7 +2,6 @@ import 'package:first_app_yt/pages/home_page.dart';
 import 'package:first_app_yt/pages/login_page.dart';
 import 'package:first_app_yt/utils/routes.dart';
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:first_app_yt/widgets/themes.dart';
 
 void main() {
